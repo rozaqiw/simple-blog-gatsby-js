@@ -8,7 +8,6 @@ import PostTags from '../components/PostTags'
 import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
 import { formatDate, editOnGithub } from '../utils/global'
-import NewsletterForm from '../components/NewsletterForm'
 
 export default class PostTemplate extends Component {
   constructor(props) {
@@ -43,7 +42,7 @@ export default class PostTemplate extends Component {
     const githubLink = editOnGithub(post)
     const twitterShare = `http://twitter.com/share?text=${encodeURIComponent(post.title)}&url=${
       config.siteUrl
-    }/${post.slug}/&via=taniarascia`
+    }/${post.slug}/&via=yuant`
 
     return (
       <Layout>

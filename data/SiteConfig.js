@@ -1,23 +1,23 @@
 const config = {
-  siteTitle: 'Tania Rascia',
-  siteTitleShort: 'Tania Rascia',
-  siteTitleAlt: 'Tania Rascia',
+  siteTitle: 'yuant',
+  siteTitleShort: 'yuant',
+  siteTitleAlt: 'yuant',
   siteLogo: '/logos/logo-1024.png',
-  siteUrl: 'https://www.taniarascia.com',
-  repo: 'https://github.com/taniarascia/taniarascia.com',
+  siteUrl: 'https://yuant.netlify.com',
+  repo: 'https://github.com/ytxgit/ytxgit.github.io',
   pathPrefix: '',
   dateFromFormat: 'YYYY-MM-DD',
   dateFormat: 'MMMM Do, YYYY',
   siteDescription:
-    'Tania Rascia is a full stack software developer specializing in modern JavaScript.',
+    '',
   siteRss: '/rss.xml',
-  googleAnalyticsID: 'UA-42068444-1',
+  googleAnalyticsID: 'UA-161804685-1',
   postDefaultCategoryID: 'Tech',
-  newsletter: 'https://taniarascia.substack.com',
-  newsletterEmbed: 'https://taniarascia.substack.com/embed',
-  userName: 'Tania',
-  userEmail: 'hello@taniarascia.com',
-  userTwitter: 'taniarascia',
+  newsletter: 'https://yuant.substack.com',
+  newsletterEmbed: 'https://yuant.substack.com/embed',
+  userName: 'yuant',
+  userEmail: 'ytxmain@gmail.com',
+  userTwitter: 'yuant',
   menuLinks: [
     {
       name: 'About me',
@@ -33,7 +33,7 @@ const config = {
     },
   ],
   themeColor: '#3F80FF', // Used for setting manifest and progress theme colors.
-  backgroundColor: '#ffffff',
+  backgroundColor: '#fdfdfd',
 }
 
 // Make sure pathPrefix is empty if not needed
