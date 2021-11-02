@@ -21,14 +21,14 @@ export default class Index extends Component {
 
     return (
       <Layout>
-        <Helmet title={`${config.siteTitle} – Software Developer`} />
+        <Helmet title={`${config.siteTitle} – IT Enthusiast`} />
         <SEO />
         <div className="container">
           <div className="lead">
             <div className="elevator">
-              <h1>{`Hey, I'm Yuant.`}</h1>
+              <h1>{`Hey, I'm Rozaqi.`}</h1>
               <p>
-                我是一名前端开发者。
+               I have background in Informatics, Networking, and Application System at High School. I am very enthusiastic in the fields of Cyber Security, Cloud Computing, and Programming.
               </p>
               {/*<div className="social-buttons">*/}
               {/*  <GitHubButton*/}
@@ -43,13 +43,6 @@ export default class Index extends Component {
             <div className="newsletter-section">
               <img src={yuant} className="newsletter-avatar" alt="yuant" />
               <div>
-                <h3>Hey!</h3>
-                <p>
-                  I am Yuant.
-                </p>
-                <a className="button" href="https://github.com/ytxgit">
-                  Github
-                </a>
               </div>
             </div>
           </div>
