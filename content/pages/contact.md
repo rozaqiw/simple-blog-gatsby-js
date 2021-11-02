@@ -1,7 +1,6 @@
 ---
-title: Contact
 slug: contact
 template: page
 ---
 
-Hi, I'm Yuant, a software engineer.
+For anything else, email me at (rozaqiwt@gmail.com)

@@ -10,7 +10,7 @@ import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
 // import projects from '../../data/projects'
 // import quotes from '../../data/quotes'
-import yuant from '../../content/images/profile.jpg'
+import yuant from '../images/pp.png'
 
 export default class Index extends Component {
   render() {
@@ -25,10 +25,10 @@ export default class Index extends Component {
         <SEO />
         <div className="container">
           <div className="lead">
-            <div className="elevator">
-              <h1>{`Hey, I'm Rozaqi.`}</h1>
+	 <div className="elevator">
+              <h2>Halo, saya Abdul Rozaqi</h2>
               <p>
-               I have background in Informatics, Networking, and Application System at High School. I am very enthusiastic in the fields of Cyber Security, Cloud Computing, and Programming.
+		Saya memiliki latar belakang Sistem Informatika Jaringan dan Aplikasi di SMK, saat ini tertarik dengan banyak hal dibidang IT, diantaranya : Cloud Computing, Cyber Security, dan Programming. Situs ini berisi artikel yang ingin saya bagikan tentang IT.
               </p>
               {/*<div className="social-buttons">*/}
               {/*  <GitHubButton*/}
@@ -39,13 +39,11 @@ export default class Index extends Component {
               {/*    ytxgit*/}
               {/*  </GitHubButton>*/}
               {/*</div>*/}
-            </div>
-            <div className="newsletter-section">
+{/*	    <div className="newsletter-section"> 
               <img src={yuant} className="newsletter-avatar" alt="yuant" />
-              <div>
-              </div>
-            </div>
+              </div>*/}
           </div>
+	</div>
         </div>
 
         <div className="container front-page">
@@ -59,7 +57,7 @@ export default class Index extends Component {
             <PostListing simple postEdges={latestPostEdges} />
           </section>
 
-          <section className="section">
+{/*          <section className="section">
             <h2>
               Most Popular
               <Link to="/categories/popular" className="view-all">
@@ -68,6 +66,7 @@ export default class Index extends Component {
             </h2>
             <PostListing simple postEdges={popularPostEdges} />
           </section>
+*/}
 
           {/*<section className="section">*/}
           {/*  <h2>Open Source Projects</h2>*/}

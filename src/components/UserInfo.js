@@ -7,18 +7,7 @@ export default class UserInfo extends Component {
   render() {
     return (
       <aside className="note">
-        <div className="container note-container">
-          <div className="flex-author">
-            <div className="flex-avatar">
-              <img className="avatar" src={yuant} alt="yuant" />
-            </div>
-            <div>
-              <p>
-                I’m Yuant.
-              </p>
-            </div>
-          </div>
-        </div>
+
       </aside>
     )
   }

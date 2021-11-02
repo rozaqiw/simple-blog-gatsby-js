@@ -6,7 +6,7 @@
 
 @include small-breakpoint {
   #main-content {
-    margin-top: 140px;
+    margin-top: 92px;
     padding: 60px 0 0;
     min-height: calc(100vh - 219px);
   }
@@ -55,7 +55,8 @@
       flex: 2;
       margin-right: 3rem;
       p {
-        max-width: 450px;
+        max-width: 800px;
+	font-size: 1.5rem;
       }
     }
 
@@ -137,7 +138,6 @@
     padding-bottom: 0;
 
     @include small-breakpoint {
-      justify-content: flex-start;
     }
 
     a.view-all {
