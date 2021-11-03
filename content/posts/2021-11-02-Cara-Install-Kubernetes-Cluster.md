@@ -28,7 +28,7 @@ Pengaturan Lab saya berisi 3server, dimana 1 VM sebagai kontrol/master dan 2node
 ```sh
 sudo nano /etc/hosts
 ```
-![image](https://user-images.githubusercontent.com/91788409/140009338-a8ec0f41-a16a-45ab-a67d-8c787f53b4bf.png)
+<span style="display:block;text-align:center">![image](https://user-images.githubusercontent.com/91788409/140009338-a8ec0f41-a16a-45ab-a67d-8c787f53b4bf.png)</span>
 
 
 2. Uji koneksi antar VM
@@ -37,7 +37,7 @@ ping -c 3 master
 ping -c 3 worker1
 ping -c 3 worker2
 ```
-![image](https://user-images.githubusercontent.com/91788409/140009344-a92def37-ea57-4213-9715-70cafcf6a0ff.png)
+<span style="display:block;text-align:center">![image](https://user-images.githubusercontent.com/91788409/140009344-a92def37-ea57-4213-9715-70cafcf6a0ff.png)</span>
 
 
 3. Pastikan semua mesin diperbarui, jalankan perintah dibawah disetiap node
@@ -72,7 +72,7 @@ swapon -s
 sudo swapoff -a
 sudo kubeadm init --pod-network-cidr=10.244.1.0/16
 ```
-![image](https://user-images.githubusercontent.com/91788409/140009353-f6be2b09-c9dd-4fb0-b3e9-2ed0d08e0526.png)
+<span style="display:block;text-align:center">![image](https://user-images.githubusercontent.com/91788409/140009353-f6be2b09-c9dd-4fb0-b3e9-2ed0d08e0526.png)</span>
 
 7. Buat direktori untuk kluster dan salin konfigurasi nya
 ```sh
@@ -89,23 +89,23 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ```sh
 sudo kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
 ```
-![image](https://user-images.githubusercontent.com/91788409/140009374-a2c961a7-3bd0-4462-a54e-b25b6d5f9156.png)
+<span style="display:block;text-align:center">![image](https://user-images.githubusercontent.com/91788409/140009374-a2c961a7-3bd0-4462-a54e-b25b6d5f9156.png)</span>
 
 
 10. Tampilkan token untuk Join node worker ke master dan salin outputnya
 ```sh
 sudo kubeadm token create --print-join-command
 ```
-![image](https://user-images.githubusercontent.com/91788409/140009388-b8e4fada-7ce1-4a30-8e10-a03dfa9b8624.png)
+<span style="display:block;text-align:center">![image](https://user-images.githubusercontent.com/91788409/140009388-b8e4fada-7ce1-4a30-8e10-a03dfa9b8624.png)</span>
 
 
 11. Join Node worker ke master
 Paste output yang sudah disalin dilangkah 10
-![image](https://user-images.githubusercontent.com/91788409/140009430-170322b0-0981-4df6-848d-6b3aae942581.png)
+<span style="display:block;text-align:center">![image](https://user-images.githubusercontent.com/91788409/140009430-170322b0-0981-4df6-848d-6b3aae942581.png)</span>
 
 
 12. Cek apakah node worker sudah bergabung
 ```sh
 sudo kubectl get nodes
 ```
-![image](https://user-images.githubusercontent.com/91788409/140009436-b61dd90f-31d2-4ab3-97c7-63cfc8e3141a.png)
+<span style="display:block;text-align:center">![image](https://user-images.githubusercontent.com/91788409/140009436-b61dd90f-31d2-4ab3-97c7-63cfc8e3141a.png)</span>
